@@ -1,7 +1,7 @@
 # ​smart-inventory-replenishment-ml
 
 
-                    ESTRUCTURA Y DICCIONARIO DE DATOS
+                   ESTRUCTURA Y DICCIONARIO DE DATOS
 
 
 1. TABLA: dim_products (Catálogo y Parámetros de Inventario)
@@ -65,4 +65,9 @@ Resultados generados tras la inferencia del modelo y aplicación de fórmulas de
 * daily_demand_pred  (FLOAT): Demanda promedio diaria predicha por el modelo (unidades/día).
 * safety_stock       (FLOAT): Inventario de seguridad calculado para un nivel de servicio del 95% (unidades).
 * reorder_point (ROP)(FLOAT): Punto de reorden que activa la orden de compra al proveedor (unidades).
-================================================================================
+
+
+
+                              References
+
+_ https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.dayofweek.html doumentation librery dayofweek
